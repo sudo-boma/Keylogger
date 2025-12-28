@@ -1,4 +1,4 @@
-WARNING & LEGAL DISCLAIMER: This is a proof-of-concept keylogger developed strictly for educational and defensive cybersecurity purposes. It is intended for authorized security testing, academic study, and understanding attacker techniques to build better defenses.
+DISCLAIMER: This is a proof-of-concept keylogger developed strictly for educational and defensive cybersecurity purposes. It is intended for authorized security testing, academic study, and understanding attacker techniques to build better defenses.
 
     It is illegal to use this software on any system you do not own or have explicit written permission to test.
 
@@ -20,7 +20,7 @@ This is my first public GitHub project, created to deepen my understanding of:
     Anti-Virus Evasion Fundamentals: Understanding how security software detects such artifacts (for defensive purposes).
 
 
-Technical Overview (Features):
+Technical Overview:
 
     Keystroke Capture: Logs all keyboard input to a specified file.
 
@@ -41,8 +41,7 @@ Authorized Use Case Examples:
 
     As part of a controlled penetration test with a signed scope of work.
 
-    ## **Installation & Usage (For Educational Labs Only)**
-
+   
  ### **Critical Pre-Requirements & Ethical Guidelines**
 
 **BEFORE YOU BEGIN:**
@@ -115,7 +114,7 @@ gcc -o keylogger keylogger.c  # Compile for analysis only
 # 3. Document detection methods and effectiveness
 ```
 
-### **Safety Controls (Must Implement)**
+### **Safety Controls**
 
 1. **Automatic Shutdown:**
 ```python
@@ -145,7 +144,7 @@ rm -f /tmp/keystrokes.*
 
 This section demonstrates understanding of **Blue Team/defensive cybersecurity** by explaining how to detect, prevent, and respond to such threats.
 
-### ** Prevention (Best Practices)**
+### ** Prevention **
 
 1. **Application Whitelisting:**
    - **Implementation:** Use tools like AppLocker (Windows) or SELinux/AppArmor (Linux)

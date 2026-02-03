@@ -1,7 +1,5 @@
 # Keylogger
 
-## Overview
-
 A Python-based keylogger application designed for educational and authorized monitoring purposes. This tool captures keyboard input and can report logged data either via email or by saving to local files. The application runs in the background and provides detailed logs of all keystrokes.
 
 ## DISCLAIMER
@@ -289,40 +287,10 @@ with open(f"/path/to/logs/{self.filename}.txt", "w") as f:
 4. Check email or local file for logs
 5. Verify all keystrokes are captured
 
-## Educational Value
-
-This project demonstrates:
-- Python event-driven programming
-- SMTP email handling
-- File I/O operations
-- Multithreading with Timer
-- Error handling and logging
-- System-level keyboard monitoring
-
-## Contributing
-
-### Reporting Issues
-1. Check existing issues
-2. Provide detailed error messages
-3. Include system information
-4. Describe steps to reproduce
-
-### Feature Requests
-1. Clear description of proposed feature
-2. Justification for inclusion
-3. Optional: Code implementation
-
-## License
-
-This project is provided for educational purposes only. Users are responsible for ensuring compliance with all applicable laws and regulations.
-
-## 🚨 Emergency Stop
+## Emergency Stop
 
 If the keylogger needs to be terminated immediately:
 1. **Windows**: Open Task Manager → End Python process
 2. **macOS/Linux**: Use `kill` command or System Monitor
 3. **All Systems**: Physical power cycle (last resort)
 
----
-
-**Remember**: With great power comes great responsibility. Use this tool ethically and legally.
